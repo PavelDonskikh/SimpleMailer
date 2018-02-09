@@ -1,6 +1,6 @@
 <? require_once($_SERVER['DOCUMENT_ROOT'] . '/simplemailer/simplemailer.php'); ?>
 
-<?=$simplemailer->getResultMessage();?>
+<?=$simpleMailer->getResultMessage();?>
 <form action="#mail-result" method="post">
 	<input name="form[send]" value="Y" type="hidden">
 
