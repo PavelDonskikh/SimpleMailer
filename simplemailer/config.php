@@ -21,12 +21,12 @@ class Config {
 	/**
 	* Success message template
 	*/
-	public $successMessageTemplate = '<p>%message%</p>';
+	public $successMessageTemplate = '<p id="mail-result">%message%</p>';
 	
 	/**
 	* Error message template
 	*/
-	public $errorMessageTemplate = '<p>%message%</p>';
+	public $errorMessageTemplate = '<p id="mail-result">%message%</p>';
 	
 	/**
 	* Email intro
