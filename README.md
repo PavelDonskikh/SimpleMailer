@@ -11,9 +11,9 @@ Currently name, email and message fields are mandatory and hard-coded in the pro
 The HTML markup is shown in contact-form.php where /simplemailer/simplemailer.php is included, which processes the POST request, sends the form results to you email and generates the success or error message when the job is done.
 Do not forget to echo the result message by calling $simpleMailer->getResultMessage() in your view.
 
-#1. How long did you spend on this coding test?
+# 1. How long did you spend on this coding test?
 
-#2. Would you change anything about your solution if you had more time?
+# 2. Would you change anything about your solution if you had more time?
 
 1. I'd not include remote assets (css, js files etc.), except for maybe google fonts. My basic idea - everything remote is unsafe.
 
@@ -21,7 +21,7 @@ Do not forget to echo the result message by calling $simpleMailer->getResultMess
 
 
 
-#3. How would you track down a performance issue in production? Have you ever had to do this? Explain your answer
+# 3. How would you track down a performance issue in production? Have you ever had to do this? Explain your answer
 
 Oh yes, performance and all other types of issues is an inevitable part of the job in an agency (my 2 previous employers were agencies) with lots of projects in development and on maintenance with the agency.
 
@@ -46,7 +46,7 @@ The goal is to track the issue right? Not to actually solve the problem. So that
 
 
 
-#4. Please describe yourself as an engineer in JSON format. Multidemensional would be a plus
+# 4. Please describe yourself as an engineer in JSON format. Multidemensional would be a plus
 
 I'm a bit not an artistic person, so I hope converting my resume into JSON will do :)
 
