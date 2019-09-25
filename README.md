@@ -12,7 +12,7 @@ The HTML markup is shown in contact-form.php where /simplemailer/simplemailer.ph
 Do not forget to echo the result message by calling $simpleMailer->getResultMessage() in your view.
 
 <code>
-	var paulDonskikh = {
+	var paulDonskikh = { \
 		name = 'Paul',
 		legalName = 'Pavel Donskikh',
 		born = new Date()
