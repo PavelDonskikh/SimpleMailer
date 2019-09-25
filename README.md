@@ -31,7 +31,7 @@ Oh yes, performance and all other types of issues is an inevitable part of the j
 1. Read the description of the problem.</li>
 2. Replicate the problem.
 	1. See if the developer (even the product manager is good enough) who worked on that feature/project is available to talk and talk to him/her.
-3. If 2.1 was not helpful, start analyzing with the frontend - check out what happens in the browser console and on the network tab in the Debugger.
+3. If 2.i was not helpful, start analyzing with the frontend - check out what happens in the browser console and on the network tab in the Debugger.
 4. The problem has to be narrowed down in step 3. It's either on the frontend or on the backend. Network tab could say which endpoint is responding with delays.
 	1. If I detected the exact endpoint which is not responding or responding with delays, analyze what happens in its code.</li>
 5. If nothing helpful was discovered in step 4, start with checking out apache (or any other web server in use) logs. If nothing discovered, check out the farmework's logs.
